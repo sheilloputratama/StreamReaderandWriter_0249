@@ -18,5 +18,7 @@ int main()
     catch(exception& e)
     {
         // penangkapan menggunakan obyek exception 
-        
-}
+        cout << e.what() << endl;
+        /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
+    }
+    
