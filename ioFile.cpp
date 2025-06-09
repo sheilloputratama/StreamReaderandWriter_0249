@@ -35,4 +35,9 @@ int main()
     // membuka file 
     infile.open("contohfile.txt");
 
-    
+    cout << endl
+         << ">= membuka dan membaca file" << endl;
+    // jika file ada maka 
+    if (infile.is_open())
+    {
+        
