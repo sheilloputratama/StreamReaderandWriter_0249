@@ -15,4 +15,8 @@ int main()
         cout << data.at(4) << endl;
         // memanggil array elemen ke 5
     }
-    
+    catch(exception& e)
+    {
+        // penangkapan menggunakan obyek exception 
+        
+}
