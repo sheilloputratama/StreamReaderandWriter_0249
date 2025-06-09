@@ -12,5 +12,7 @@ int main()
     {
         array<int, 3> data = {10, 20, 30};
         // pesan dari array integer 3 elemen
-        
-}
+        cout << data.at(4) << endl;
+        // memanggil array elemen ke 5
+    }
+    
